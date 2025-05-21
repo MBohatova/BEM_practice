@@ -1,0 +1,27 @@
+{
+  "name": "bem_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url /BEM_practice/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MBohatova/BEM_practice.git"
+  },
+  "author": "MBohatova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MBohatova/BEM_practice/issues"
+  },
+  "homepage": "https://github.com/MBohatova/BEM_practice#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^1.12.3"
+  }
+}
