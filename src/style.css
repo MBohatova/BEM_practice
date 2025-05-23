@@ -32,6 +32,7 @@ body {
 }
 
 .header-block__logo {
+  cursor: pointer;
   margin-left: 50px;
 }
 
@@ -187,6 +188,7 @@ body {
 }
 
 .header__logo {
+  cursor: pointer;
   margin-left: 50px;
 }
 
