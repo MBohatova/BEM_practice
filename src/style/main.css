@@ -1,0 +1,7 @@
+.main {
+  display: flex;
+  max-width: 944px;
+  justify-content: center;
+  gap: 48px 46px;
+  flex-wrap: wrap;
+}
